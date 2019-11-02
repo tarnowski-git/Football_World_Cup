@@ -46,8 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormFinalStage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinalStage.Designer.cs">
+      <DependentUpon>FormFinalStage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGameDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGameDetails.Designer.cs">
+      <DependentUpon>FormGameDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGroupStage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGroupStage.Designer.cs">
+      <DependentUpon>FormGroupStage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQualifications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQualifications.Designer.cs">
+      <DependentUpon>FormQualifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStartpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStartpage.Designer.cs">
+      <DependentUpon>FormStartpage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.cs" />
+    <Compile Include="TeamsGame.cs" />
+    <Compile Include="WorldCupGroup.cs" />
+    <Compile Include="WorldCupKnockout.cs" />
+    <EmbeddedResource Include="FormFinalStage.resx">
+      <DependentUpon>FormFinalStage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameDetails.aa-DJ.resx">
+      <DependentUpon>FormGameDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameDetails.resx">
+      <DependentUpon>FormGameDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGroupStage.resx">
+      <DependentUpon>FormGroupStage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQualifications.resx">
+      <DependentUpon>FormQualifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStartpage.resx">
+      <DependentUpon>FormStartpage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
